@@ -1,0 +1,126 @@
+.pos-inner-container {
+  width: 1040px;
+  margin: 0 auto;
+}
+
+.point-of-sale {
+  display: grid;
+  grid-template-columns: 424px 24px 1fr;
+  grid-template-rows: max-content 24px max-content 24px max-content 24px max-content;
+  margin-top: 24px;
+}
+
+.point-of-sale__footer {
+  margin-top: 25px;
+  background-color: blueviolet;
+}
+
+.poin-of-sale__left {
+  grid-column: 1;
+}
+
+.poin-of-sale__right {
+  background-color: green;
+  grid-column: 3;
+}
+
+.poin-of-sale__left > * {
+  margin-top: 24px;
+}
+
+.poin-of-sale__left :first-child {
+  margin-top: 0;
+}
+
+.poin-of-sale__right > * {
+  margin-top: 24px;
+}
+
+.poin-of-sale__right :first-child {
+  margin-top: 0;
+}
+
+img.point-of-sale__header-image {
+  width: 20px;
+  height: 20px;
+}
+
+.point-of-sale__section-header {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.point-of-sale__verify {
+  display: flex;
+  align-items: center;
+}
+
+.point-of-sale__verify-text {
+  margin-left: 5px;
+}
+
+.point-of-sale__header-controls :first-child {
+  margin-right: 20px;
+}
+
+.point-of-sale__verify .navbar-title {
+  margin-right: 18px;
+}
+
+.point-of-sale__search-input {
+  padding: 12px 12px 12px 44px;
+  line-height: 24px;
+  height: max-content;
+  background-image: url("/images/clubhome/search.png");
+  background-repeat: no-repeat;
+  background-position: 18px 18px;
+}
+
+.point-of-sale__label {
+  line-height: 18px;
+  margin-bottom: 4px;
+}
+
+.point-of-sale__textarea {
+  height: 76px;
+}
+
+.point-of-sale__sale-comment {
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+.point-of-sale__checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+.point-of-sale__comment-wrapper {
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+.point-of-sale__checkbox-wrapper {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.point-of-sale__checkbox-wrapper :last-child {
+  margin-left: 12px;
+}
+
+@media screen and (max-width: 1040px) {
+  .pos-inner-container {
+    width: 731px;
+  }
+}
+@media screen and (max-width: 731px) {
+  .pos-inner-container {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=PointOfSaleBootstrap.css.map */
