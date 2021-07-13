@@ -20,24 +20,7 @@
 }
 
 .poin-of-sale__right {
-  background-color: green;
   grid-column: 3;
-}
-
-.poin-of-sale__left > * {
-  margin-top: 24px;
-}
-
-.poin-of-sale__left :first-child {
-  margin-top: 0;
-}
-
-.poin-of-sale__right > * {
-  margin-top: 24px;
-}
-
-.poin-of-sale__right :first-child {
-  margin-top: 0;
 }
 
 img.point-of-sale__header-image {
@@ -112,15 +95,48 @@ img.point-of-sale__header-image {
   margin-left: 12px;
 }
 
-@media screen and (max-width: 1040px) {
-  .pos-inner-container {
-    width: 731px;
-  }
+.point-of-sale__drowdown {
+  width: 169px;
+  height: 48px;
+  margin-left: auto;
+  background: lightskyblue;
 }
-@media screen and (max-width: 731px) {
-  .pos-inner-container {
-    width: 100%;
-  }
+
+.point-of-sale__member {
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+.point-of-sale__sale {
+  margin-top: 24px;
+  margin-bottom: 0;
+}
+
+.flex-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.point-of-sale__categories-dropdown {
+  width: 217px;
+}
+
+.point-of-sale__categories {
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+.section-header-with-padding {
+  padding: 32px 32px 0 32px;
+  height: -webkit-max-content;
+  border: none;
+}
+
+.section-body-with-padding {
+  padding: 0 32px 32px 32px;
+  height: -webkit-max-content;
+  border: none;
 }
 
 /*# sourceMappingURL=PointOfSaleBootstrap.css.map */
