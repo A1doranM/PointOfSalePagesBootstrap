@@ -10,15 +10,6 @@
   margin-top: 24px;
 }
 
-.point-of-sale__footer {
-  margin-top: 25px;
-  background-color: white;
-  padding: 13px 21px 15px 40px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .point-of-sale__left {
   grid-column: 1;
 }
@@ -186,6 +177,15 @@ img.point-of-sale__header-image {
 
 .categories-row :last-child {
   margin-right: 0;
+}
+
+.point-of-sale__footer {
+  margin-top: 25px;
+  background-color: white;
+  padding: 13px 21px 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer-item__text {
