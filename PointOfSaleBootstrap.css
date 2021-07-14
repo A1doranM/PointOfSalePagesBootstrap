@@ -14,13 +14,16 @@
   margin-top: 25px;
   background-color: white;
   padding: 13px 21px 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.poin-of-sale__left {
+.point-of-sale__left {
   grid-column: 1;
 }
 
-.poin-of-sale__right {
+.point-of-sale__right {
   grid-column: 3;
 }
 
@@ -220,6 +223,14 @@ img.point-of-sale__header-image {
   color: #0072BA;
   margin: 0;
   padding: 0;
+}
+
+.footer-values > * {
+  margin-right: 60px;
+}
+
+.footer-values :last-child {
+  margin-right: 0;
 }
 
 /*# sourceMappingURL=PointOfSaleBootstrap.css.map */
